@@ -1,0 +1,8 @@
+# local credentials / secrets
+*.credentials.yaml
+.credentials.yaml
+.env
+
+# logs and temp
+*.log
+tmp/
