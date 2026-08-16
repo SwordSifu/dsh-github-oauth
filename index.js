@@ -18,7 +18,7 @@ import { defineTool } from '@deepseek-ai/dsh-tools';
 import { credentialRef } from '@deepseek-ai/dsh-credentials';
 
 export const name = 'dsh-github-oauth';
-export const inject = ['tools', 'credentials', 'subprocess'];
+export const inject = ['tools', 'credentials', 'subprocess', 'timer'];
 
 const REFS = {
   clientId: credentialRef('GITHUB_OAUTH_CLIENT_ID'),
